@@ -41,7 +41,7 @@ From the web page above, we have a simple front end page with similar style to G
 ## What happens on server side
 The general idea is that we build almost every modules from scratch, like **data structures, file system crawler and indexer, search engine, on-disk index, network socket, threadpool, HTTP parsing and generating, security issues**. These modules are developed in a reasonable order, from HW1 to HW4. Each HW is based on the previous HW implementations. HW4 will be the final version, i.e. the Mini-Google Web Server.  
 
-We also pay huge attention to **architecture design, code style, code readability, error handling, memory management, unit testing and integration testing.**
+We also pay huge attention to **architecture design, modularity, code reuse, code readability, code consistency, code style(no cpplint.py complaints), error handling, memory management(no valgrind issues), unit testing and integration testing.**
 
 (1) HW1 : Build complete LinkedList and HashTable modules from scratch【 C 】  
 (2) HW2 : Build file system crawler and indexer (inverted index) as well as the search engine【 C / POSIX 】  
